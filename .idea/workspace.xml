@@ -23,6 +23,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1dzbIlkoChYPImSRM3daXa7ubM3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -65,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593430790743</updated>
-      <workItem from="1593430792015" duration="17556000" />
+      <workItem from="1593430792015" duration="17875000" />
     </task>
     <servers />
   </component>
