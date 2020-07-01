@@ -1,0 +1,14 @@
+.l-profile{
+  height:100vh;
+  background:rgba(244,244,244,1);
+  box-shadow:0px 0px 8px 2px rgba(200,200,200,1) inset;
+  &__title{
+    margin-top:100px;
+    text-align:center;
+  }
+  &__txt{
+    width:70%;
+    margin:0 auto;
+    line-height:50px;
+  }
+}
