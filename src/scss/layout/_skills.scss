@@ -1,15 +1,21 @@
 .l-skills{
-  height:100vh;
+  min-height:100vh;
   &__container{
     width:100%;
     display:flex;
     flex-wrap:wrap;
     margin:0 auto;
+    @include mq(sm){
+      flex-direction:column;
+    }
   }
   &__txt{
     padding:$space_m $space_xl;
     font-size:$font-size_m;
     line-height:2;
+    @include mq(sm){
+      line-height:1.3;
+    }
   }
   &__block{
     width:calc(100% / 2 - 30px);
@@ -17,15 +23,27 @@
     margin-bottom:$space_5l;
     height:100px;
     display:flex;
+    @include mq(sm){
+      width:100%;
+      margin:0 0 20px 0;
+      padding:5px;
+      box-sizing:border-box;
+    }
     &:nth-of-type(2n){
       margin-left:30px;
       margin-right:0;
+      @include mq(sm){
+        margin:0 0 20px 0;
+      }
     }
   }
   &__chartBox{
     margin-right:$space_l;
     max-width: 150px;
     min-width: 100px;
+    @include mq(sm){
+      width:70px;
+    }
   }
   &__chart{
     padding: 50%;

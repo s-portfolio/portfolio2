@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ポートフォリオ</title>
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="dist/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="l-header">
         <div class="p-top">
-            <h1 class="p-top__title">MyPortfolio</h1>
-            <nav>
+            <a href="index.html"><h1 class="p-top__title">MyPortfolio</h1></a>
+            <nav id="js-nav-menu" class="p-top__navi">
                 <ul class="p-top__nav">
                     <li class="p-top__navList"><a class="p-top__navLink" href="#top">TOP</a></li>
                     <li class="p-top__navList"><a class="p-top__navLink" href="#profile">Profile</a></li>
@@ -18,9 +19,14 @@
                     <li class="p-top__navList"><a class="p-top__navLink"    href="#portfolio">Portfolio</a></li>
                 </ul>
             </nav>
+            <div id="js-toggle-menu" class="p-top__hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </header>
-    <section id="#top" class="l-img">
+    <section id="top" class="l-img">
 
     </section>
     <section id="profile" class="l-profile">
@@ -126,10 +132,38 @@
     <section id="portfolio" class="l-portfolio">
         <div class="u-container">
             <h1 class="c-title">Portfolio</h1>
+            <div class="l-portfolio__container">
+                <div class="p-site">
+                    <a href="portfolio.html" class="p-site__imgLink"><img class="p-site__img" src="dist/img/portfolio_screenshot1.png" alt=""></a>
+                    <a href="portfolio.html" class="p-site__link">ポートフォリオサイト<br/>「MyPortfolio」</a>
+                </div>
+                <div class="p-site">
+                    <a href="" class="p-site__imgLink"><img class="p-site__img" src="" alt=""></a>
+                    <a href="" class="p-site__link"></a>
+                </div>
+                <div class="p-site">
+                    <a href="questions.html" class="p-site__imgLink"><img class="p-site__img" src="dist/img/questions_screenshot4.png" alt=""></a>
+                    <a href="questions.html" class="p-site__link">プログラミング質問サイト<br/>「Questions」</a>
+                </div>
+            </div>
         </div>
     </section>
     <footer class="l-footer">
 
     </footer>
+    <script>
+        var nav = document.getElementById('js-nav-menu');
+        var hamburger = document.getElementById('js-toggle-menu');
+        hamburger.addEventListener('click',function(){
+            if(nav.classList.contains('js-active')){
+                nav.classList.remove('js-active');
+                hamburger.classList.remove('js-active');
+            }else{
+                nav.classList.add('js-active');
+                hamburger.classList.add('js-active');
+            }
+
+        });
+    </script>
 </body>
 </html>

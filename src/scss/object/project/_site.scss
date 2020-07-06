@@ -1,0 +1,24 @@
+.p-site{
+  padding:20px;
+  width:33%;
+  margin-right:10px;
+  box-sizing:border-box;
+  @include mq(sm){
+    width:100%;
+  }
+  &:nth-last-of-type{
+    margin-right:-10px;
+  }
+  &__img{
+    width:100%;
+    vertical-align:bottom;
+  }
+
+  &__link{
+    text-decoration:underline;
+    margin-top:20px;
+    text-align:center;
+    display:block;
+    color:blue;
+  }
+}

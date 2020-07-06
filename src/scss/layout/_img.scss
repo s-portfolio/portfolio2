@@ -1,12 +1,14 @@
 .l-img{
-  background-image : url('../../../src/img/book_pc.png');
+  background-image : url('../../../dist/img/book_pc.png');
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
   background-attachment:fixed;
-  width:100vw;
   height:100vh;
   position:relative;
+  @include mq(sm){
+    background-image : url('../../../dist/img/book_sp.jpg');
+  }
   &__title{
     color:#28c0ce;
     font-size:$font-size_5l;

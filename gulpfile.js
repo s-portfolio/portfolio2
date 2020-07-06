@@ -34,7 +34,9 @@ gulp.task('bs-reload',function(){
 gulp.task('default',['sass','minify-css','browser-sync'],function(){
     gulp.watch('./src/scss/style.scss',['sass']);
     gulp.watch('./src/**/**/*.scss',['sass']);
-    gulp.watch('./src/scss/object/**/*.scss',['sass']);
+    gulp.watch('./src/scss/object/component/*.scss',['sass']);
+    gulp.watch('./src/scss/object/project/*.scss',['sass']);
+    gulp.watch('./src/scss/object/utility/*.scss',['sass']);
     gulp.watch('./src/css/style.css',['minify-css','bs-reload']);
     gulp.watch('./index.html',['bs-reload']);
     gulp.watch('./dist/js/app.js',['bs-reload']);

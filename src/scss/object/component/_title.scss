@@ -4,4 +4,8 @@
   text-align:center;
   font-size:$font-size_4l;
   border-bottom:2px solid darkgoldenrod;
+  @include mq(sm){
+    padding-top:80px;
+    margin-bottom:$space_xl;
+  }
 }

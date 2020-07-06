@@ -1,6 +1,7 @@
 //===================================//
 //==========  foundation   ==========//
 //===================================//
+@import 'foundation/_variable.scss';
 @import 'foundation/_mixin.scss';
 @import 'foundation/_reset.scss';
 @import 'foundation/_base.scss';
@@ -12,7 +13,7 @@
 @import 'layout/_img';
 @import 'layout/_profile';
 @import 'layout/_skills';
-@import 'layout/_portfolio';
+@import 'layout/portfolio';
 @import 'layout/_footer';
 
 //===================================//
@@ -23,7 +24,9 @@
 @import 'object/component/_title';
 
 //==========  project   ==============//
+@import 'object/project/_detail';
 @import 'object/project/_top';
+@import 'object/project/_site';
 
 //==========  utility   ==============//
 @import 'object/utility/_container';

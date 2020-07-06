@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ポートフォリオ</title>
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="l-header">
+    <div class="p-top">
+        <a href="index.html"><h1 class="p-top__title">MyPortfolio</h1></a>
+        <nav id="js-nav-menu" class="p-top__navi">
+            <ul class="p-top__nav">
+                <li class="p-top__navList"><a class="p-top__navLink" href="index.html#top">TOP</a></li>
+                <li class="p-top__navList"><a class="p-top__navLink" href="index.html#profile">Profile</a></li>
+                <li class="p-top__navList"><a class="p-top__navLink" href="index.html#skills">Skills</a></li>
+                <li class="p-top__navList"><a class="p-top__navLink"    href="index.html#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+        <div id="js-toggle-menu" class="p-top__hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
+<section class="p-detail2 p-detail__space">
+    <div class="u-container">
+        <h1 class="c-title">プログラミング質問サイト<br/>「Questions」</h1>
+        <div class="p-detail__group">
+            <p class="p-detail__txt">レスポンシブデザインにも<br/>対応しているため、<br/>スマートフォンからでも<br/>見やすいサイトとなっています。
+                <br/><a class="p-detail__link" href=""> WEBサイト>> </a>
+            </p>
+            <div class="p-detail__imgGroup">
+                <a href="dist/img/questions_screenshot4.png">
+                    <img class="p-detail__img p-detail__img--3" src="dist/img/questions_screenshot4.png" alt="" >
+                </a>
+                <a href="dist/img/questions_screenshot3.png">
+                    <img  alt="" class="p-detail__img p-detail__img--4" src="dist/img/questions_screenshot3.png">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="p-detail p-detail__space">
+    <div class="u-container">
+        <div class="p-detail__group">
+            <div class="p-detail__imgGroup">
+                <a href="dist/img/questions_screenshot8.png">
+                    <img class="p-detail__img p-detail__img--1" src="dist/img/questions_screenshot8.png" alt="" >
+                </a>
+                <a href="dist/img/questions_screenshot9.png">
+                    <img  alt="" class="p-detail__img p-detail__img--2" src="dist/img/questions_screenshot9.png">
+                </a>
+            </div>
+            <p class="p-detail__txt p-detail__txt2">
+                <space class="p-detail__skill">使用技術</space>
+                PHP,JS共にフレームワークを使わずに、<br/>それぞれの言語をそのまま使っています。
+                <br/><a class="p-detail__link" href=""><< ソースコード</a>
+            </p>
+        </div>
+    </div>
+</section>
+</body>
+<footer class="l-footer">
+
+</footer>
+<script>
+    var nav = document.getElementById('js-nav-menu');
+    var hamburger = document.getElementById('js-toggle-menu');
+    hamburger.addEventListener('click',function(){
+        if(nav.classList.contains('js-active')){
+            nav.classList.remove('js-active');
+            hamburger.classList.remove('js-active');
+        }else{
+            nav.classList.add('js-active');
+            hamburger.classList.add('js-active');
+        }
+
+    });
+</script>
+</html>
