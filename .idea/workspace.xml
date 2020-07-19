@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2200697a-3a68-48cd-95cd-c576bc4ccdbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/img/book_sp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/portfolio_screenshot1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/portfolio_screenshot2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/portfolio_screenshot3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/portfolio_screenshot4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/portfolio_screenshot5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/portfolio_screenshot6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/questions_screenshot1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/questions_screenshot2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/questions_screenshot3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/questions_screenshot4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/questions_screenshot8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/questions_screenshot9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/foundation/_variable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/object/project/_detail.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/object/project/_site.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/book.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/book.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/book_pc.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/book_pc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/foundation/_mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/foundation/_mixin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_img.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_img.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_profile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_skills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_skills.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/object/component/_title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/component/_title.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/object/project/_top.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/project/_top.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/object/utility/_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/utility/_container.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +80,8 @@
       <workItem from="1593430792015" duration="17875000" />
       <workItem from="1593759696096" duration="14853000" />
       <workItem from="1593865681813" duration="365000" />
-      <workItem from="1593867098501" duration="2394000" />
+      <workItem from="1593867098501" duration="2570000" />
+      <workItem from="1595160918072" duration="594000" />
     </task>
     <servers />
   </component>
