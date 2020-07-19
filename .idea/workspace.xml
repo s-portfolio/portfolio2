@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2200697a-3a68-48cd-95cd-c576bc4ccdbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/img/share_screenshot1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/share_screenshot2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/share_screenshot3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/share_screenshot4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/share_screenshot5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/share_screenshot6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions.html" beforeDir="false" afterPath="$PROJECT_DIR$/questions.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +81,7 @@
       <workItem from="1593759696096" duration="14853000" />
       <workItem from="1593865681813" duration="365000" />
       <workItem from="1593867098501" duration="2570000" />
-      <workItem from="1595160918072" duration="3964000" />
+      <workItem from="1595160918072" duration="4473000" />
     </task>
     <servers />
   </component>
