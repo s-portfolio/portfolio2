@@ -590,7 +590,8 @@ body {
       top: 100px; }
       @media screen and (max-width: 576px) {
         .p-detail__img--2 {
-          position: static; } }
+          position: static;
+          margin-top: 10px; } }
     .p-detail__img--4 {
       position: absolute;
       top: 100px;
@@ -599,6 +600,14 @@ body {
         .p-detail__img--4 {
           top: 0;
           left: 0; } }
+    .p-detail__img--5 {
+      position: absolute;
+      top: 100px;
+      right: 50px; }
+      @media screen and (max-width: 576px) {
+        .p-detail__img--5 {
+          position: static;
+          margin-top: 10px; } }
     .p-detail__imgGroup {
       width: 65%; }
       @media screen and (max-width: 576px) {
